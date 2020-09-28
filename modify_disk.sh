@@ -19,5 +19,5 @@ df -h
 echo "将新分区挂载到 /mnt "
 mount /dev/vdb1 /mnt
 
-echo "查看最终结果"
+echo "******查看最终结果******"
 df -h
