@@ -1,4 +1,12 @@
 #aliyun
+echo "将新硬盘分区"
+echo "n
+p
+
+
+
+w
+" | fdisk -u /dev/vdb
 
 echo "格式化新分区"
 mkfs -t ext4 /dev/vdb1
